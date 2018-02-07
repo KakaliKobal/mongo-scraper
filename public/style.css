@@ -1,13 +1,38 @@
 body {
-    background-image: url("./img/bg.jpg");
+    background-color: #e6eff1;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
+
+.save {
+    margin-bottom: 5px;
+}
+
+#wait {
+    margin-left: 21%;
+}
+
+.scrape {
+    margin-right: 20px;
+}
+
+hr {
+    border-color: rgb(241, 202, 147);
+
+}
+
+.hrArticle {
+    border-style: dashed;
+    border-color: 
+}
+
 
 /*MODAL*/
 .modal-content {
     background-color: orange;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
     background-position: center 12%;
     border-radius: 0;
     font-family: 'Rock Salt', cursive;
@@ -41,13 +66,6 @@ body {
     margin-right: 5em;
   }
   
-  /* .note {
-    background: transparent;
-    margin-top: 5px;
-    height: 3em;
-    position: relative;
-    cursor: pointer;
-  } */
   .noteTitle {
     display: inline-block;
     font-size: 2.5em;

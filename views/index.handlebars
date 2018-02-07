@@ -1,6 +1,8 @@
+
 <button class="btn btn-default scrape">SCRAPE!</button><button class="btn btn-warning saved">SAVED</button>
 
 <h1>Science News</h1>
+<hr>
 
 <div class="articles">
     {{#each_upto articles 8}}
@@ -11,6 +13,7 @@
             <p>{{summary}}</p>
             <button class="btn btn-primary save" data-id="{{_id}}">SAVE</button>
             <br>
+            <hr class="hrArticle">
         </div>
         {{/unless}}
     {{/each_upto}}
