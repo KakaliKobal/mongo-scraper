@@ -30,12 +30,12 @@ hr {
 
 /*MODAL*/
 .modal-content {
-    background-color: orange;
+    background-color: rgb(248, 207, 132);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 12%;
     border-radius: 0;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
     color: #777;
   
   }
@@ -56,7 +56,7 @@ hr {
   }
   
   #submitNote {
-    background: transparent;
+    background: #f1ece6;
     border: 2px solid #777;
     font-size: 2em;
   }
